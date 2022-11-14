@@ -1,0 +1,3 @@
+[mopidy.ext]
+raspberry_captouch = mopidy_raspberry_captouch:Extension
+

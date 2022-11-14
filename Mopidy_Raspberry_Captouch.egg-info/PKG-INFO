@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: Mopidy-Raspberry-Captouch
+Version: 0.1.0
+Summary: Mopidy extension for I2C-based capacitive touch on a Raspberry Pi
+Home-page: https://github.com/joegrand/mopidy-raspberry-captouch
+Author: Joe Grand
+Author-email: joe@grandideastudio.com
+License: Apache License, Version 2.0
+Description: ****************************
+        Mopidy-Raspberry-Captouch
+        ****************************
+        
+        .. image:: https://img.shields.io/pypi/v/Mopidy-Raspberry-Captouch
+            :target: https://pypi.org/project/Mopidy-Raspberry-Captouch/
+            :alt: Latest PyPI version
+        
+        .. image:: https://img.shields.io/github/workflow/status/joegrand/mopidy-raspberry-captouch/CI
+            :target: https://github.com/joegrand/mopidy-raspberry-captouch/actions
+            :alt: CI build status
+        
+        .. image:: https://img.shields.io/codecov/c/gh/joegrand/mopidy-raspberry-captouch
+            :target: https://codecov.io/gh/joegrand/mopidy-raspberry-captouch
+            :alt: Test coverage
+        
+        Mopidy extension for I2C-based capacitive touch on a Raspberry Pi
+        
+        
+        Installation
+        ============
+        
+        Install by running::
+        
+            python3 -m pip install Mopidy-Raspberry-Captouch
+        
+        See https://mopidy.com/ext/raspberry_captouch/ for alternative installation methods.
+        
+        
+        Configuration
+        =============
+        
+        Before starting Mopidy, you must add configuration for
+        Mopidy-Raspberry-Captouch to your Mopidy configuration file::
+        
+            [raspberry_captouch]
+            # TODO: Add example of extension config
+        
+        
+        Project resources
+        =================
+        
+        - `Source code <https://github.com/joegrand/mopidy-raspberry-captouch>`_
+        - `Issue tracker <https://github.com/joegrand/mopidy-raspberry-captouch/issues>`_
+        - `Changelog <https://github.com/joegrand/mopidy-raspberry-captouch/blob/master/CHANGELOG.rst>`_
+        
+        
+        Credits
+        =======
+        
+        - Original author: `Joe Grand <https://github.com/joegrand>`__
+        - Current maintainer: `Joe Grand <https://github.com/joegrand>`__
+        - `Contributors <https://github.com/joegrand/mopidy-raspberry-captouch/graphs/contributors>`_
+        
+Platform: UNKNOWN
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players
+Requires-Python: >=3.7
+Provides-Extra: dev
+Provides-Extra: lint
+Provides-Extra: test
